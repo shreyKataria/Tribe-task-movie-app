@@ -5,6 +5,7 @@ import { useMovies } from "../context/MovieContext";
 // import Footer from "../components/footer";
 
 const Favourites = () => {
+    // eslint-disable-next-line
   const { favourites, movie } = useMovies();
 
   return (

@@ -1,15 +1,7 @@
 import Navbar from "../components/Navbar";
-// import bg3 from "../assets/bg-3.jpg";
-// import bg4 from "../assets/bg-4.jpg";
-// import bg5 from "../assets/bg-5.jpg";
-// import bg6 from "../assets/bg-6.jpg";
-// import AddFavourite from "../components/AddFavorite";
 
-import { useState, useEffect, createContext } from "react";
-import { Link } from "react-router-dom";
 import SearchBox from "../components/SearchBar";
 import MovieCard from "../components/MovieCard";
-// import Footer from "../components/footer";
 import { useMovies } from "../context/MovieContext";
 
 const Homepage = ({ children }) => {
@@ -32,7 +24,7 @@ const Homepage = ({ children }) => {
         </div>
       </section>
 
-      {/* <Footer /> */}
+      
     </main>
   );
 };
